@@ -1,6 +1,6 @@
 import Stripe from "stripe";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-const ALLOWED_ORIGIN = "https://hcj6unazv1.zite.so"; // your Zite app
+const ALLOWED_ORIGIN = "https://book.zite.so"; // your Zite app
 
 export async function handler(event, context) {
   if (event.httpMethod === "OPTIONS") {
