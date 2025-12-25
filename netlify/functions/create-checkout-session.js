@@ -49,8 +49,8 @@ export async function handler(event, context) {
       payment_method_types: ["card"],
       mode: "payment",
       line_items: lineItems,
-      success_url: "https://vetgo-app.netlify.app/success",
-      cancel_url: "https://vetgo-app.netlify.app/cancel",
+      success_url: "https://vetgo-book.netlify.app/success",
+      cancel_url: "https://vetgo-book.netlify.app/cancel",
     });
 
     return {
