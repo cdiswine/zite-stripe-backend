@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Graeme3000/zite-stripe-backend.git"
+    "url": "git+https://github.com/cdiswine/zite-stripe-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/Graeme3000/zite-stripe-backend/issues"
+    "url": "https://github.com/cdiswine/zite-stripe-backend/issues"
   },
-  "homepage": "https://github.com/Graeme3000/zite-stripe-backend#readme",
+  "homepage": "https://github.com/cdiswine/zite-stripe-backend#readme",
   "dependencies": {
     "stripe": "^19.1.0"
   }
