@@ -1,7 +1,7 @@
 import Stripe from "stripe";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY); // Add your Stripe secret key in Netlify env vars
-const ALLOWED_ORIGIN = "https://hcj6unazv1.zite.so"; // Your Zite app origin
+const ALLOWED_ORIGIN = "https://book.zite.so"; // Your Zite app origin
 
 export async function handler(event, context) {
   // Handle CORS preflight request
